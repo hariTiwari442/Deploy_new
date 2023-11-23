@@ -4,6 +4,6 @@ import productRoutes from './routes/productRoutes';
 const app = express();
 
 app.use(express.json());
-app.use('/products', productRoutes);
+app.use('/friends', productRoutes);
 
 export default app;

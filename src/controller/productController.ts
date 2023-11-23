@@ -57,5 +57,5 @@ export function listProducts(req: Request, res: Response): void {
     }
     return true;
   });
-  res.json(filteredProducts);
+  res.json("Bahut Maarung MC ye bnd krke Chindi Chori");
 }
